@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&family=Roboto:wght@400;500;700&family=Yellowtail&display=swap" rel="stylesheet">
+    <!-- METARIAL ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- VENDORS FILE -->
+    <link href="vendors/css/owl.carousel.css" rel="stylesheet">
+    <link href="vendors/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="vendors/css/normalize.css" rel="stylesheet">
+    <link href="vendors/css/grid.css" rel="stylesheet">
+    <!-- RESOURCES FILE -->
+    <link href="resources/css/lineicons.css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
+    <link href="resources/css/responsive.css" rel="stylesheet">
+    <title>The Silon</title>
+</head>
+<body>
+
+    <!-- HEADER SECTION START -->
+
+    <header id="header">
+        <nav>
+            <div class="row">
+                <a href="#header">
+                    <img src="resources/img/logo/logo.png" alt="PHOTO">
+                </a>
+                <div class="main_menu">
+                    <ul>
+                        <li><a onclick="closeNav()" href="#header" class="active">home</a></li>
+                        <li><a onclick="closeNav()" href="#popular">shop</a></li>
+                        <li><a onclick="closeNav()" href="#service">blog</a>
+                        <span class="material-symbols-outlined mouse_over_dropdown">chevron_right</span>
+                    <div class="dropdown_menu">
+                        <ul>
+                            <li><a onclick="closeNav()" href="#header">home</a></li>
+                            <li><a onclick="closeNav()" href="#popular">shop</a></li>
+                            <li><a onclick="closeNav()" href="#service">blog</a></li>
+                            <li><a onclick="closeNav()" href="#follow">brands</a></li>
+                        </ul>
+                    </div>
+                        </li>
+                        <li><a onclick="closeNav()" href="#silon">products</a></li>
+                        <li><a onclick="closeNav()" href="#follow">brands</a></li>
+                        <li><a onclick="closeNav()" href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="mobile_menu">
+                    <div class="overlay" id="my_nav">
+                        <div class="close_btn">
+                            <a href="javascript:viod(0)" onclick="closeNav()">&times;</a>
+                        </div>
+                            <div class="overlay_menu">
+                                    <a onclick="closeNav()" href="#header">home</a>
+                                    <a onclick="closeNav()" href="#popular">shop</a>
+                                    <a href="#">blog<span class="material-symbols-outlined dropdown_icon">chevron_right</span></a>
+                                <div class="mobile_dropdown_submenu">
+                                    <a onclick="closeNav()" href="#header">home</a>
+                                    <a onclick="closeNav()" href="#popular">shop</a>
+                                    <a onclick="closeNav()" href="#service">block</a>
+                                    <a onclick="closeNav()" href="#trending">products</a>  
+                                </div>
+                                    <a onclick="closeNav()" href="#trending">products</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li><span class="material-symbols-outlined">search</span></li>
+                        <li><span class="material-symbols-outlined">shopping_cart</span></li>
+                        <li><span class="material-symbols-outlined">favorite</span></li>
+                    </ul>
+                </div>
+                <div onclick="openNav()" class="mobile_menu_bar">&#9776;</div>
+            </div>
+        </nav>
+        <div class="row">
+                <div class="home_content">
+                    <h3>untimate collection</h3>
+                    <h1>complete woman fashion here</h1>
+                    <a href="#" class="btn shopNow_btn js_home_content">shop now</a>
+                </div>
+        </div>
+    </header>   
+
+      <!-- HEADER SECTION END -->
+
+      <!-- FEATURE PRODUCT SECTION START -->
+
+    <section id="featured_product" class="featured_product">
+        <div class="row">
+            <h2>featured product</h2>
+        </div>
+            <div class="row">
+                <div class="col span_1_of_3 box">
+                    <div class="overlay_img">
+                        <img src="resources/img/img_1.jpg" alt="PHOTO">
+                        <div class="overlay_icons">
+                            <span class="material-symbols-outlined">visibility</span>
+                            <span class="material-symbols-outlined">favorite</span>
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                        </div>
+                    </div>
+                    <p>red women purses</p>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-half"></i></span>
+                    <div class="dollar">
+                        <p>$35.00</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 box">
+                    <div class="overlay_img">
+                        <img src="resources/img/img_2.jpg" alt="PHOTO">
+                        <div class="overlay_icons">
+                            <span class="material-symbols-outlined">visibility</span>
+                            <span class="material-symbols-outlined">favorite</span>
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                        </div>
+                    </div>
+                    <p>red women purses</p>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-half"></i></span>
+                    <div class="dollar">
+                        <p>$15.00</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 box">
+                    <div class="overlay_img">
+                        <img src="resources/img/img_3.jpg" alt="PHOTO">
+                        <div class="overlay_icons">
+                            <span class="material-symbols-outlined">visibility</span>
+                            <span class="material-symbols-outlined">favorite</span>
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                        </div>
+                    </div>
+                    <p>red women purses</p>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-fill"></i></span>
+                    <span><i class="lni lni-star-half"></i></span>
+                    <div class="dollar">
+                        <p>$25.00</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- FEATURE PRODUCT SECTION END -->
+
+    <!--DISCOUNT SECTION START-->
+
+    <section id="discount" class="discount_section">
+        <div class="row">
+            <div class="col span_1_of_2">
+                <h2>50% off</h2>
+                <p>all womens collection</p>
+                <a href="#" class="btn shopNow_btn_2">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <!--DISCOUNT SECTION END-->
+
+    <!--MOST POPULAR SECTION START-->
+
+    <section id="popular" class="popular_section">
+        <div class="row">
+            <h2>most popular</h2>
+        </div>
+        <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="carousel_item box">
+                        <div class="overlay_img">
+                            <img src="resources/img/img_4.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item box">
+                        <div class="overlay_img">
+                            <img src="resources/img/img_5.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item box">
+                        <div class="overlay_img ">
+                            <img src="resources/img/img_6.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item box">
+                        <div class="overlay_img">
+                            <img src="resources/img/img_7.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item box">
+                        <div class="overlay_img">
+                            <img src="resources/img/img_8.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item box">
+                        <div class="overlay_img">
+                            <img src="resources/img/img_9.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item box">
+                        <div class="overlay_img">
+                            <img src="resources/img/img_10.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item box">
+                        <div class="overlay_img">
+                            <img src="resources/img/img_11.jpg" alt="PHOTO">
+                            <div class="overlay_icons">
+                                <span class="material-symbols-outlined">visibility</span>
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                        </div>
+                        <p>red women purses</p>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-fill"></i></span>
+                        <span><i class="lni lni-star-half"></i></span>
+                        <div class="dollar">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--MOST POPULAR SECTION END-->
+
+    <!--SERVICES SECTION START-->
+
+    <section id="service" class="service_section">
+        <div class="row">
+            <div class="col span_1_of_4">
+                <div class="col_item box">
+                    <div class="service_icon">
+                        <span class="material-symbols-outlined">currency_exchange</span>
+                    </div>
+                    <h4>money back gurantee</h4>
+                    <p>reat fill signs evening</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="col_item box">
+                    <div class="service_icon">
+                        <span class="material-symbols-outlined">local_shipping</span>
+                    </div>
+                    <h4>free delivery</h4>
+                    <p>reat fill signs evening</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="col_item box">
+                    <div class="service_icon">
+                        <span class="material-symbols-outlined">headset_mic</span>
+                    </div>
+                    <h4>always support</h4>
+                    <p>reat fill signs evening</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="col_item box">
+                    <div class="service_icon">
+                        <span class="material-symbols-outlined">verified_user</span>
+                    </div>
+                    <h4>secure payment</h4>
+                    <p>reat fill signs evening</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SERVICES SECTION END-->
+
+    <!--TRENDING SECTION START-->
+
+    <section id="trending" class="trending_section">
+        <div class="row">
+            <h2>trending product</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_6.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_7.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_8.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_9.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_10.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_11.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_12.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_13.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <p>red women purses</p>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-fill"></i></span>
+                <span><i class="lni lni-star-half"></i></span>
+                <div class="dollar">
+                    <p>$35.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TRENDING SECTION END-->
+
+    <!--SELON SECTION START-->
+
+    <section id="silon" class="silon_section">
+        <div class="row">
+            <h2>silon journar</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_5.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <div class="silon_content">
+                    <div class="toggle_on_icon">
+                        <span class="material-symbols-outlined">toggle_on</span><p>07 july, 2023</p>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+                <div class="react_content">
+                    <span class="material-symbols-outlined">diamond</span>
+                    <p>women fashion</p>
+                    <span class="material-symbols-outlined">mark_chat_unread</span>
+                    <p>2 comments</p>
+                </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_6.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <div class="silon_content">
+                    <div class="toggle_on_icon">
+                        <span class="material-symbols-outlined">toggle_on</span><p>07 july, 2023</p>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+                <div class="react_content">
+                    <span class="material-symbols-outlined">diamond</span>
+                    <p>women fashion</p>
+                    <span class="material-symbols-outlined">mark_chat_unread</span>
+                    <p>2 comments</p>
+                </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_7.jpg" alt="PHOTO">
+                    <div class="overlay_icons">
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                </div>
+                <div class="silon_content">
+                    <div class="toggle_on_icon">
+                        <span class="material-symbols-outlined">toggle_on</span><p>07 july, 2023</p>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+                <div class="react_content">
+                    <span class="material-symbols-outlined">diamond</span>
+                    <p>women fashion</p>
+                    <span class="material-symbols-outlined">mark_chat_unread</span>
+                    <p>2 comments</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SELON SECTION END-->
+
+    <!--FOLLOW US SECTION START-->
+
+    <section id="follow" class="followus_section">
+        <div class="row">
+            <h2>follow us</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_3.jpg" alt="PHOTO">
+                    <div class="overlay_content">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_4.jpg" alt="PHOTO">
+                    <div class="overlay_content">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_5.jpg" alt="PHOTO">
+                    <div class="overlay_content">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="overlay_img">
+                    <img src="resources/img/img_6.jpg" alt="PHOTO">
+                    <div class="overlay_content">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOLLOW US SECTION END-->
+
+    <!--CONTACT US SECTION START-->
+
+    <section id="contact" class="contact_us">
+        <div class="row">
+            <h2>get in touch</h2>
+            <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+        </div>
+        <div class="row">
+            <form method="POST">
+                <div class="row">
+                    <div class="col span_1_of_2">
+                        <input placeholder="Your Name*" name="Name" type="text" required>
+                    </div>
+                    <div class="col span_1_of_2">
+                        <input placeholder="Your Email*" name="Email" type="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <textarea placeholder="Your Message*" cols="10" rows="8" required></textarea>
+                </div>
+                <div class="row">
+                    <input class="btn submit_btn" type="submit" name="message" value="send">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--CONTACT US SECTION END-->
+
+    <!-- FOOTER SECTION START -->
+
+        <div class="footer_area">
+            <div class="row">
+                <div class="col span_1_of_4">
+                    <h3>about us</h3>
+                    <ul>
+                        <li><a href="#">who are you</a></li>
+                        <li><a href="#">work with us</a></li>
+                        <li><a href="#">become asupplyer</a></li>
+                        <li><a href="#">our device</a></li>
+                        <li><a href="#">affaliate program</a></li>
+                    </ul>
+                </div>
+                <div class="col span_1_of_4">
+                    <h3>useful links</h3>
+                    <ul>
+                        <li><a href="#">who are you</a></li>
+                        <li><a href="#">work with us</a></li>
+                        <li><a href="#">become asupplyer</a></li>
+                        <li><a href="#">our device</a></li>
+                        <li><a href="#">affaliate program</a></li>
+                    </ul>
+                </div>
+                <div class="col span_1_of_4">
+                    <h3>online shopping</h3>
+                    <ul>
+                        <li><a href="#">who are you</a></li>
+                        <li><a href="#">work with us</a></li>
+                        <li><a href="#">become asupplyer</a></li>
+                        <li><a href="#">our device</a></li>
+                        <li><a href="#">affaliate program</a></li>
+                    </ul>
+                </div>
+                <div class="col span_1_of_4">
+                    <h3>experience app on mobile</h3>
+                    <div class="download_app">
+                        <div class="col span_1_of_2">
+                            <div class="google_play">
+                                <div class="icon">
+                                    <span class="material-symbols-outlined">android</span>
+                                </div>
+                                <div class="google_link">
+                                    <p>get at 0%</p>
+                                    <span><a href="https://play.google.com/console/about/?          gclid=Cj0KCQjw2v-gBhC1ARIsAOQdKY3HG6CoraGnM6Hp7SD3Qb3_wLl-zzIu-J25YF6uQzsbPiCYdtTvJm4aAgpAEALw_wcB">google play</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col span_1_of_2">
+                            <div class="app_store">
+                                <div class="icon">
+                                    <i class="fa-brands fa-apple"></i>
+                                </div>
+                                <div class="apple_link">
+                                    <p>get at 0%</p>
+                                    <span><a href="https://www.apple.com/app-store/">app store</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social_media_aria">
+                        <h3>follow us</h3>
+                        <div class="social_media_icon">
+                            <ul>
+                                <li>
+                                    <div class="facebook_icon">
+                                        <a href="https://www.facebook.com/masud03387"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="twiter_icon">
+                                        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="lindin_icon">
+                                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="instagram_icon">
+                                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copy_right_area">
+                Copyright &copy; 2023. All right reserved. designed by <a href="https://www.facebook.com/masud03387">Masud Rana.</a>
+            </div>
+        </footer>
+
+
+    <!-- FOOTER SECTION END -->
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous">
+    </script>
+
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/owl.carousel.min.js"></script>
+    <script src="vendors/js/selectivizr.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
